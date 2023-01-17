@@ -14,9 +14,10 @@ header{
     background-color: #0020F4;
     height: 91px;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 header a{
     color: #FFFFFF;
@@ -42,7 +43,79 @@ nav li{
 }
 
 /* div */
-div{
+
+/* section{
+    background-color: #0020F4;
+    height: 308px;
+    width: 100%;
+} */
+h3{
+    color: #FFFFFF;
+    font-family: 'HelveticaNeue-bold';
+}
+.relative{
+    position: relative;
+    background-color: #0020F4;
+    height: 308px;
+    width: 100%;
+    padding: 120px;
+}
+
+.middle{
+    width: 240px;
+}
+.high{
+    width: 300px;
+}
+.dot{
+    position: absolute;
+    top: 90px;
+    right: 140px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+#left{
+    position: absolute;
+    bottom: -110px;
+    left: 122px;
+    display: block;
+    width: 245px;
+    color: #171717;
+    font-family: 'HelveticaNeue';
+}
+#right{
+    position: absolute;
+    bottom: -110px;
+    right: 120px;
+    display: block;
+    width: 245px;
+    color: #171717;
+    font-family: 'HelveticaNeue';
+}
+#center {
+    position: absolute;
+    top: 100%;
+    left: 38%;
+    width: 245px;
+    display: block;
+    color: #171717;
+    font-family: 'HelveticaNeue';
+}
+.opacity{
+    opacity: 0.3;
+}
+/* .rel{
     background-color: #0020F4;
     margin-top: 91px;
+    position: relative;
 }
+#small{
+    position: absolute;
+    max-width: 707px;
+    height: 528px;
+    left: 240px;
+}
+#square{
+    right: 0;
+    position: absolute;
+} */
