@@ -43,15 +43,10 @@ nav li{
 }
 
 /* div */
-
-/* section{
-    background-color: #0020F4;
-    height: 308px;
-    width: 100%;
-} */
 h3{
     color: #FFFFFF;
     font-family: 'HelveticaNeue-bold';
+    margin-left: 50px;
 }
 .relative{
     position: relative;
@@ -62,22 +57,22 @@ h3{
 }
 
 .middle{
-    width: 240px;
+    width: 300px;
 }
 .high{
-    width: 300px;
+    width: 360px;
 }
 .dot{
     position: absolute;
     top: 90px;
-    right: 140px;
+    right: 250px;
     font-size: 50px;
     color: #FFFFFF;
 }
 #left{
     position: absolute;
-    bottom: -110px;
-    left: 122px;
+    bottom: -150px;
+    left: 172px;
     display: block;
     width: 245px;
     color: #171717;
@@ -85,8 +80,8 @@ h3{
 }
 #right{
     position: absolute;
-    bottom: -110px;
-    right: 120px;
+    bottom: -150px;
+    right: 300px;
     display: block;
     width: 245px;
     color: #171717;
@@ -94,7 +89,7 @@ h3{
 }
 #center {
     position: absolute;
-    top: 100%;
+    top: 115%;
     left: 38%;
     width: 245px;
     display: block;
@@ -104,18 +99,9 @@ h3{
 .opacity{
     opacity: 0.3;
 }
-/* .rel{
-    background-color: #0020F4;
-    margin-top: 91px;
-    position: relative;
+.relative .inline, div, img{
+    display: inline-block;
 }
-#small{
-    position: absolute;
-    max-width: 707px;
-    height: 528px;
-    left: 240px;
+.inline{
+    margin-left: 50px;
 }
-#square{
-    right: 0;
-    position: absolute;
-} */
